@@ -1,3 +1,526 @@
+# [2.112.0](https://github.com/revanced/revanced-patches/compare/v2.111.3...v2.112.0) (2022-12-06)
+
+
+### Bug Fixes
+
+* **anytracker:** syntax error in fingerprint ([#1165](https://github.com/revanced/revanced-patches/issues/1165)) ([3db1e12](https://github.com/revanced/revanced-patches/commit/3db1e1211fb8786f3109152559633dab895f607b))
+* inconsistencies in preference switches ([#1207](https://github.com/revanced/revanced-patches/issues/1207)) ([bb0985a](https://github.com/revanced/revanced-patches/commit/bb0985a03ecb813d03d0e65370000e44ea5e65ee))
+* syntax error in compatiblity annotation ([#1181](https://github.com/revanced/revanced-patches/issues/1181)) ([2b555f6](https://github.com/revanced/revanced-patches/commit/2b555f626c0e9b78f896bb415890fd4f80a870c6))
+* **tiktok/settings:** make compatible with newer versions ([#1057](https://github.com/revanced/revanced-patches/issues/1057)) ([0ca4bce](https://github.com/revanced/revanced-patches/commit/0ca4bce1c5ceb61182eac98223b0ca4b4c2b833d))
+* **youtube/custom-video-speed:** fuzzy scan on fingerprint  ([#1135](https://github.com/revanced/revanced-patches/issues/1135)) ([5ac1b26](https://github.com/revanced/revanced-patches/commit/5ac1b26ae2b298fbadd2db7c35e411b38ad15480))
+* **youtube/general-ads:** hide ads with buttons ([d2d4afb](https://github.com/revanced/revanced-patches/commit/d2d4afbef37c6b0196574d25baa741c1b1ecc6ca))
+* **youtube/general-ads:** hide bytecode home ad view ([7b33a6f](https://github.com/revanced/revanced-patches/commit/7b33a6f76c90aa6466f638a43f2b7c31a014ce1a))
+* **youtube/general-ads:** hide reels shelf ([029a95b](https://github.com/revanced/revanced-patches/commit/029a95bafcf7687c8b24ab0d51a3d016fc33c241))
+* **youtube/general-ads:** remove unused switch ([e5fd11a](https://github.com/revanced/revanced-patches/commit/e5fd11a971325a4b80db1832a92856dcf5b4ca66))
+* **youtube:** swipe gesture on home screen ([e1d2e7b](https://github.com/revanced/revanced-patches/commit/e1d2e7bf430c969c94bc457f01f1642d533cbcea)), closes [#610](https://github.com/revanced/revanced-patches/issues/610)
+
+
+### Features
+
+* **anytracker:** `unlock-premium` patch ([#1076](https://github.com/revanced/revanced-patches/issues/1076)) ([45fb9cd](https://github.com/revanced/revanced-patches/commit/45fb9cdf3a22c567c6d209f630fd83dbd265226a))
+* **anytracker:** `unlock-premium` patch ([#1165](https://github.com/revanced/revanced-patches/issues/1165)) ([be46e8c](https://github.com/revanced/revanced-patches/commit/be46e8c0a82aca2580429c4bd27be0ee85f4dd5a))
+* **anytracker:** remove `unlock-premium` patch ([#1094](https://github.com/revanced/revanced-patches/issues/1094)) ([af9f547](https://github.com/revanced/revanced-patches/commit/af9f5479b3bb394124601160476ea4bbdf8cbf14))
+* **backdrops:** `pro-unlock` patch ([#1121](https://github.com/revanced/revanced-patches/issues/1121)) ([17885f2](https://github.com/revanced/revanced-patches/commit/17885f2f6ddb90b1b0160bb87d4a3854d3820930))
+* **citra:** `premium-unlock` patch ([#1115](https://github.com/revanced/revanced-patches/issues/1115)) ([df10dfa](https://github.com/revanced/revanced-patches/commit/df10dfae28280da258dc653367e55ac898c04ebc))
+* **crunchyroll:** `enable-downloads` patch ([#1119](https://github.com/revanced/revanced-patches/issues/1119)) ([8ec62f8](https://github.com/revanced/revanced-patches/commit/8ec62f8a3151fc9d9b5876e564182501af55d530))
+* **moneymanager:** `unlock-premium` patch ([#1173](https://github.com/revanced/revanced-patches/issues/1173)) ([e0441fc](https://github.com/revanced/revanced-patches/commit/e0441fca79d42d0b0ae654c64b8d597b15c84e9b))
+* **music:** bump compatibility to v5.34.51 ([64a8217](https://github.com/revanced/revanced-patches/commit/64a821734dad657dbbbdd42c0461f6468cbe7411))
+* **myexpenses:** `unlock-pro` patch ([#1120](https://github.com/revanced/revanced-patches/issues/1120)) ([f4608f7](https://github.com/revanced/revanced-patches/commit/f4608f7c19592e791289f439af8fb52b1cba4dc8))
+* **sleepasandroid:** `unlock-premium` patch ([#1172](https://github.com/revanced/revanced-patches/issues/1172)) ([14a33ee](https://github.com/revanced/revanced-patches/commit/14a33eead020839add7a258a5d1b1c2590a60307))
+* sort README patch table by amount of patches per package ([adf96f6](https://github.com/revanced/revanced-patches/commit/adf96f623a2207e2e562d5382b06afc245565206))
+* **tiktok:** `sim-spoof` patch ([#1088](https://github.com/revanced/revanced-patches/issues/1088)) ([e9e6683](https://github.com/revanced/revanced-patches/commit/e9e66834c525317962627536b4205528ef6418d4))
+* **tiktok:** `tiktok-web-login` patch ([#593](https://github.com/revanced/revanced-patches/issues/593)) ([aae67ce](https://github.com/revanced/revanced-patches/commit/aae67cee133e86ed9868977d5734ff104e1118b9))
+* **twitch/block-embedded-ads:** `block-embedded-ads` patch support ([#1160](https://github.com/revanced/revanced-patches/issues/1160)) ([75fba85](https://github.com/revanced/revanced-patches/commit/75fba85ddf38c0d87a635748f22a92c51747d166))
+* **twitch:** `settings` patch ([#1075](https://github.com/revanced/revanced-patches/issues/1075)) ([6825f1b](https://github.com/revanced/revanced-patches/commit/6825f1b8e0cfb71e78e59e85158bf872661b1432))
+* **twitch:** ˋintegrationsˋ  dependency patch ([#1074](https://github.com/revanced/revanced-patches/issues/1074)) ([9d59ab5](https://github.com/revanced/revanced-patches/commit/9d59ab582d08a67f869e43d2907024a822af2edf))
+* **twitch:** remove `block-embedded-ads` patch ([#1164](https://github.com/revanced/revanced-patches/issues/1164)) ([b77f2b5](https://github.com/revanced/revanced-patches/commit/b77f2b5b387c6d655eb138484725a76d2595f1b1))
+* **twitch:** settings for patches ([#1142](https://github.com/revanced/revanced-patches/issues/1142)) ([1fad125](https://github.com/revanced/revanced-patches/commit/1fad1258dcabc74cae27e40f671349fbd0246c4a))
+* **windyapp:** `unlock-pro` patch ([#1118](https://github.com/revanced/revanced-patches/issues/1118)) ([191ea63](https://github.com/revanced/revanced-patches/commit/191ea634e53717f308be6c999dc15f7dee1f40b9))
+* **youtube/debugging:** print stack traces ([ddc6c98](https://github.com/revanced/revanced-patches/commit/ddc6c98c4c2d6aa82b746c72edf5347449b038ac))
+* **youtube/enable-wide-searchbar:** bump compatibility to v17.45.36 ([6687dce](https://github.com/revanced/revanced-patches/commit/6687dce21e6e2b5ddc7bd6bf631ccc6253df70aa))
+* **youtube/general-ads:** custom component filter ([be562fb](https://github.com/revanced/revanced-patches/commit/be562fb2dbf5585d3087bc69b828705f9859baea))
+* **youtube/general-ads:** hide gray separators ([18a9008](https://github.com/revanced/revanced-patches/commit/18a900839b2f8bc85db6ce7e6753213f274e2031))
+* **youtube/general-ads:** normalize switch names ([569763a](https://github.com/revanced/revanced-patches/commit/569763a09bddadd50434314dc77588d562697b42))
+* **youtube/hide-create-button:** bump compatibility to v17.45.36 ([b3986ab](https://github.com/revanced/revanced-patches/commit/b3986abf172f696a56cd5e928e72ce1826f142f8))
+* **youtube/hide-shorts-button:** bump compatibility to v17.45.36 ([04fd8b7](https://github.com/revanced/revanced-patches/commit/04fd8b7b2f9f3cd242fec63807fa6403b3330a20))
+* **youtube/return-youtube-dislike:** improve settings labels ([#1203](https://github.com/revanced/revanced-patches/issues/1203)) ([4e10d9f](https://github.com/revanced/revanced-patches/commit/4e10d9f577ca9f5eef24c5650219d6e911fd07cc))
+* **youtube/return-youtube-dislike:** show dislike as a percentage ([#1185](https://github.com/revanced/revanced-patches/issues/1185)) ([808ca82](https://github.com/revanced/revanced-patches/commit/808ca8288d64c6042c7e86a687463a3c7ad6b6ff))
+* **youtube/return-youtube-dislike:** simplify preference descriptions ([#1216](https://github.com/revanced/revanced-patches/issues/1216)) ([cf352e6](https://github.com/revanced/revanced-patches/commit/cf352e65f98c9c26593e5f1383ec2529fcf7877b))
+* **youtube/theme:** exclude the patch by default ([d3ceecf](https://github.com/revanced/revanced-patches/commit/d3ceecfd0d91b70285850c9d3e6b5c92ed461153))
+* **youtube/theme:** make amoled the default color for dark theme background" ([f0c7e14](https://github.com/revanced/revanced-patches/commit/f0c7e142d417395fe4b1481fac41e589b00b4bd1))
+* **youtube/theme:** make dark the default color for dark theme background ([17bb066](https://github.com/revanced/revanced-patches/commit/17bb066ed09547e95c63f06b6d5717e25657a57a))
+* **youtube:** `disable-zoom-haptics` patch ([#1079](https://github.com/revanced/revanced-patches/issues/1079)) ([b5eaf7a](https://github.com/revanced/revanced-patches/commit/b5eaf7ab2450d60ba8bcd189da63c47b85a9660e))
+* **youtube:** `remove-player-button-background` patch ([#855](https://github.com/revanced/revanced-patches/issues/855)) ([c997a2d](https://github.com/revanced/revanced-patches/commit/c997a2d9a54ce92d5a76aaee9aaa01a4e5c1c722))
+* **youtube:** bump patches compatibility to v17.45.36 ([1e10dd7](https://github.com/revanced/revanced-patches/commit/1e10dd76040ae40e2d27b9335458979330f31578))
+* **youtube:** drop support for compatibility of old versions ([140ac10](https://github.com/revanced/revanced-patches/commit/140ac10fd0021fb48b7682953808b9d17c768130))
+
+# [2.112.0](https://github.com/revanced/revanced-patches/compare/v2.111.3...v2.112.0) (2022-12-06)
+
+
+### Bug Fixes
+
+* **anytracker:** syntax error in fingerprint ([#1165](https://github.com/revanced/revanced-patches/issues/1165)) ([3db1e12](https://github.com/revanced/revanced-patches/commit/3db1e1211fb8786f3109152559633dab895f607b))
+* syntax error in compatiblity annotation ([#1181](https://github.com/revanced/revanced-patches/issues/1181)) ([2b555f6](https://github.com/revanced/revanced-patches/commit/2b555f626c0e9b78f896bb415890fd4f80a870c6))
+* **tiktok/settings:** make compatible with newer versions ([#1057](https://github.com/revanced/revanced-patches/issues/1057)) ([0ca4bce](https://github.com/revanced/revanced-patches/commit/0ca4bce1c5ceb61182eac98223b0ca4b4c2b833d))
+* **youtube/custom-video-speed:** fuzzy scan on fingerprint  ([#1135](https://github.com/revanced/revanced-patches/issues/1135)) ([5ac1b26](https://github.com/revanced/revanced-patches/commit/5ac1b26ae2b298fbadd2db7c35e411b38ad15480))
+* **youtube/general-ads:** hide ads with buttons ([d2d4afb](https://github.com/revanced/revanced-patches/commit/d2d4afbef37c6b0196574d25baa741c1b1ecc6ca))
+* **youtube/general-ads:** hide bytecode home ad view ([7b33a6f](https://github.com/revanced/revanced-patches/commit/7b33a6f76c90aa6466f638a43f2b7c31a014ce1a))
+* **youtube/general-ads:** hide reels shelf ([029a95b](https://github.com/revanced/revanced-patches/commit/029a95bafcf7687c8b24ab0d51a3d016fc33c241))
+* **youtube/general-ads:** remove unused switch ([e5fd11a](https://github.com/revanced/revanced-patches/commit/e5fd11a971325a4b80db1832a92856dcf5b4ca66))
+* **youtube:** swipe gesture on home screen ([e1d2e7b](https://github.com/revanced/revanced-patches/commit/e1d2e7bf430c969c94bc457f01f1642d533cbcea)), closes [#610](https://github.com/revanced/revanced-patches/issues/610)
+
+
+### Features
+
+* **anytracker:** `unlock-premium` patch ([#1076](https://github.com/revanced/revanced-patches/issues/1076)) ([45fb9cd](https://github.com/revanced/revanced-patches/commit/45fb9cdf3a22c567c6d209f630fd83dbd265226a))
+* **anytracker:** `unlock-premium` patch ([#1165](https://github.com/revanced/revanced-patches/issues/1165)) ([be46e8c](https://github.com/revanced/revanced-patches/commit/be46e8c0a82aca2580429c4bd27be0ee85f4dd5a))
+* **anytracker:** remove `unlock-premium` patch ([#1094](https://github.com/revanced/revanced-patches/issues/1094)) ([af9f547](https://github.com/revanced/revanced-patches/commit/af9f5479b3bb394124601160476ea4bbdf8cbf14))
+* **backdrops:** `pro-unlock` patch ([#1121](https://github.com/revanced/revanced-patches/issues/1121)) ([17885f2](https://github.com/revanced/revanced-patches/commit/17885f2f6ddb90b1b0160bb87d4a3854d3820930))
+* **citra:** `premium-unlock` patch ([#1115](https://github.com/revanced/revanced-patches/issues/1115)) ([df10dfa](https://github.com/revanced/revanced-patches/commit/df10dfae28280da258dc653367e55ac898c04ebc))
+* **crunchyroll:** `enable-downloads` patch ([#1119](https://github.com/revanced/revanced-patches/issues/1119)) ([8ec62f8](https://github.com/revanced/revanced-patches/commit/8ec62f8a3151fc9d9b5876e564182501af55d530))
+* **moneymanager:** `unlock-premium` patch ([#1173](https://github.com/revanced/revanced-patches/issues/1173)) ([e0441fc](https://github.com/revanced/revanced-patches/commit/e0441fca79d42d0b0ae654c64b8d597b15c84e9b))
+* **music:** bump compatibility to v5.34.51 ([64a8217](https://github.com/revanced/revanced-patches/commit/64a821734dad657dbbbdd42c0461f6468cbe7411))
+* **myexpenses:** `unlock-pro` patch ([#1120](https://github.com/revanced/revanced-patches/issues/1120)) ([f4608f7](https://github.com/revanced/revanced-patches/commit/f4608f7c19592e791289f439af8fb52b1cba4dc8))
+* **sleepasandroid:** `unlock-premium` patch ([#1172](https://github.com/revanced/revanced-patches/issues/1172)) ([14a33ee](https://github.com/revanced/revanced-patches/commit/14a33eead020839add7a258a5d1b1c2590a60307))
+* sort README patch table by amount of patches per package ([adf96f6](https://github.com/revanced/revanced-patches/commit/adf96f623a2207e2e562d5382b06afc245565206))
+* **tiktok:** `sim-spoof` patch ([#1088](https://github.com/revanced/revanced-patches/issues/1088)) ([e9e6683](https://github.com/revanced/revanced-patches/commit/e9e66834c525317962627536b4205528ef6418d4))
+* **tiktok:** `tiktok-web-login` patch ([#593](https://github.com/revanced/revanced-patches/issues/593)) ([aae67ce](https://github.com/revanced/revanced-patches/commit/aae67cee133e86ed9868977d5734ff104e1118b9))
+* **twitch/block-embedded-ads:** `block-embedded-ads` patch support ([#1160](https://github.com/revanced/revanced-patches/issues/1160)) ([75fba85](https://github.com/revanced/revanced-patches/commit/75fba85ddf38c0d87a635748f22a92c51747d166))
+* **twitch:** `settings` patch ([#1075](https://github.com/revanced/revanced-patches/issues/1075)) ([6825f1b](https://github.com/revanced/revanced-patches/commit/6825f1b8e0cfb71e78e59e85158bf872661b1432))
+* **twitch:** ˋintegrationsˋ  dependency patch ([#1074](https://github.com/revanced/revanced-patches/issues/1074)) ([9d59ab5](https://github.com/revanced/revanced-patches/commit/9d59ab582d08a67f869e43d2907024a822af2edf))
+* **twitch:** remove `block-embedded-ads` patch ([#1164](https://github.com/revanced/revanced-patches/issues/1164)) ([b77f2b5](https://github.com/revanced/revanced-patches/commit/b77f2b5b387c6d655eb138484725a76d2595f1b1))
+* **twitch:** settings for patches ([#1142](https://github.com/revanced/revanced-patches/issues/1142)) ([1fad125](https://github.com/revanced/revanced-patches/commit/1fad1258dcabc74cae27e40f671349fbd0246c4a))
+* **windyapp:** `unlock-pro` patch ([#1118](https://github.com/revanced/revanced-patches/issues/1118)) ([191ea63](https://github.com/revanced/revanced-patches/commit/191ea634e53717f308be6c999dc15f7dee1f40b9))
+* **youtube/debugging:** print stack traces ([ddc6c98](https://github.com/revanced/revanced-patches/commit/ddc6c98c4c2d6aa82b746c72edf5347449b038ac))
+* **youtube/enable-wide-searchbar:** bump compatibility to v17.45.36 ([6687dce](https://github.com/revanced/revanced-patches/commit/6687dce21e6e2b5ddc7bd6bf631ccc6253df70aa))
+* **youtube/general-ads:** custom component filter ([be562fb](https://github.com/revanced/revanced-patches/commit/be562fb2dbf5585d3087bc69b828705f9859baea))
+* **youtube/general-ads:** hide gray separators ([18a9008](https://github.com/revanced/revanced-patches/commit/18a900839b2f8bc85db6ce7e6753213f274e2031))
+* **youtube/general-ads:** normalize switch names ([569763a](https://github.com/revanced/revanced-patches/commit/569763a09bddadd50434314dc77588d562697b42))
+* **youtube/hide-create-button:** bump compatibility to v17.45.36 ([b3986ab](https://github.com/revanced/revanced-patches/commit/b3986abf172f696a56cd5e928e72ce1826f142f8))
+* **youtube/hide-shorts-button:** bump compatibility to v17.45.36 ([04fd8b7](https://github.com/revanced/revanced-patches/commit/04fd8b7b2f9f3cd242fec63807fa6403b3330a20))
+* **youtube/return-youtube-dislike:** improve settings labels ([#1203](https://github.com/revanced/revanced-patches/issues/1203)) ([4e10d9f](https://github.com/revanced/revanced-patches/commit/4e10d9f577ca9f5eef24c5650219d6e911fd07cc))
+* **youtube/return-youtube-dislike:** show dislike as a percentage ([#1185](https://github.com/revanced/revanced-patches/issues/1185)) ([808ca82](https://github.com/revanced/revanced-patches/commit/808ca8288d64c6042c7e86a687463a3c7ad6b6ff))
+* **youtube/return-youtube-dislike:** simplify preference descriptions ([#1216](https://github.com/revanced/revanced-patches/issues/1216)) ([cf352e6](https://github.com/revanced/revanced-patches/commit/cf352e65f98c9c26593e5f1383ec2529fcf7877b))
+* **youtube/theme:** exclude the patch by default ([d3ceecf](https://github.com/revanced/revanced-patches/commit/d3ceecfd0d91b70285850c9d3e6b5c92ed461153))
+* **youtube/theme:** make amoled the default color for dark theme background" ([f0c7e14](https://github.com/revanced/revanced-patches/commit/f0c7e142d417395fe4b1481fac41e589b00b4bd1))
+* **youtube/theme:** make dark the default color for dark theme background ([17bb066](https://github.com/revanced/revanced-patches/commit/17bb066ed09547e95c63f06b6d5717e25657a57a))
+* **youtube:** `disable-zoom-haptics` patch ([#1079](https://github.com/revanced/revanced-patches/issues/1079)) ([b5eaf7a](https://github.com/revanced/revanced-patches/commit/b5eaf7ab2450d60ba8bcd189da63c47b85a9660e))
+* **youtube:** `remove-player-button-background` patch ([#855](https://github.com/revanced/revanced-patches/issues/855)) ([c997a2d](https://github.com/revanced/revanced-patches/commit/c997a2d9a54ce92d5a76aaee9aaa01a4e5c1c722))
+* **youtube:** bump patches compatibility to v17.45.36 ([1e10dd7](https://github.com/revanced/revanced-patches/commit/1e10dd76040ae40e2d27b9335458979330f31578))
+* **youtube:** drop support for compatibility of old versions ([140ac10](https://github.com/revanced/revanced-patches/commit/140ac10fd0021fb48b7682953808b9d17c768130))
+
+# [2.140.0](https://github.com/revanced/revanced-patches/compare/v2.139.0...v2.140.0) (2022-12-05)
+
+
+### Features
+
+* **music:** bump compatibility to v5.34.51 ([fc0c92e](https://github.com/revanced/revanced-patches/commit/fc0c92e2b68a2d93a02f4577aeb864955b1b5701))
+
+# [2.139.0](https://github.com/revanced/revanced-patches/compare/v2.138.0...v2.139.0) (2022-12-05)
+
+
+### Features
+
+* **youtube/return-youtube-dislike:** improve settings labels ([#1203](https://github.com/revanced/revanced-patches/issues/1203)) ([fb4a612](https://github.com/revanced/revanced-patches/commit/fb4a612592d82857b0e892a6f5d135dbd657c44d))
+
+# [2.138.0](https://github.com/revanced/revanced-patches/compare/v2.137.0...v2.138.0) (2022-12-05)
+
+
+### Features
+
+* **youtube/debugging:** print stack traces ([9cea382](https://github.com/revanced/revanced-patches/commit/9cea382750456434d0547351ee7d4013eac9de9c))
+
+# [2.137.0](https://github.com/revanced/revanced-patches/compare/v2.136.0...v2.137.0) (2022-12-03)
+
+
+### Features
+
+* **youtube/return-youtube-dislike:** show dislike as a percentage ([#1185](https://github.com/revanced/revanced-patches/issues/1185)) ([cbbab0b](https://github.com/revanced/revanced-patches/commit/cbbab0b4069534a2032258f9a09e9690fc68c291))
+
+# [2.136.0](https://github.com/revanced/revanced-patches/compare/v2.135.0...v2.136.0) (2022-12-02)
+
+
+### Bug Fixes
+
+* syntax error in compatiblity annotation ([#1181](https://github.com/revanced/revanced-patches/issues/1181)) ([0830c7e](https://github.com/revanced/revanced-patches/commit/0830c7ed1064757cf6354b426549275ece55408e))
+
+
+### Features
+
+* **youtube:** drop support for compatibility of old versions ([7413aad](https://github.com/revanced/revanced-patches/commit/7413aad6d215f24a66ba9a33917c73dbdb0b7bc3))
+
+# [2.135.0](https://github.com/revanced/revanced-patches/compare/v2.134.1...v2.135.0) (2022-12-02)
+
+
+### Features
+
+* sort README patch table by amount of patches per package ([40cb14e](https://github.com/revanced/revanced-patches/commit/40cb14e1838aee5b49b60094cd134ed7e1726c3f))
+
+## [2.134.1](https://github.com/revanced/revanced-patches/compare/v2.134.0...v2.134.1) (2022-12-02)
+
+
+### Bug Fixes
+
+* **youtube:** swipe gesture on home screen ([9294084](https://github.com/revanced/revanced-patches/commit/929408406b53d8b0db69f092c3e191791b9fa8ee)), closes [#610](https://github.com/revanced/revanced-patches/issues/610)
+
+# [2.134.0](https://github.com/revanced/revanced-patches/compare/v2.133.0...v2.134.0) (2022-12-02)
+
+
+### Bug Fixes
+
+* **anytracker:** syntax error in fingerprint ([#1165](https://github.com/revanced/revanced-patches/issues/1165)) ([46ad786](https://github.com/revanced/revanced-patches/commit/46ad786b1488814494080ca48cff27c361c47ca1))
+
+
+### Features
+
+* **anytracker:** `unlock-premium` patch ([#1165](https://github.com/revanced/revanced-patches/issues/1165)) ([e7ed324](https://github.com/revanced/revanced-patches/commit/e7ed324bb5216037be0646a698e7e808fbf03e4e))
+
+# [2.133.0](https://github.com/revanced/revanced-patches/compare/v2.132.0...v2.133.0) (2022-12-01)
+
+
+### Features
+
+* **moneymanager:** `unlock-premium` patch ([#1173](https://github.com/revanced/revanced-patches/issues/1173)) ([438c1bc](https://github.com/revanced/revanced-patches/commit/438c1bca684c7d47bd5a401b4dccbaddef604650))
+
+# [2.132.0](https://github.com/revanced/revanced-patches/compare/v2.131.0...v2.132.0) (2022-12-01)
+
+
+### Features
+
+* **sleepasandroid:** `unlock-premium` patch ([#1172](https://github.com/revanced/revanced-patches/issues/1172)) ([580ddcd](https://github.com/revanced/revanced-patches/commit/580ddcdf1f8ef4a525f772630b3c085b706e4dc7))
+* **twitch:** remove `block-embedded-ads` patch ([#1164](https://github.com/revanced/revanced-patches/issues/1164)) ([ecc1eae](https://github.com/revanced/revanced-patches/commit/ecc1eaef4daa7dfecb7913c378188b2b4685e610))
+
+# [2.131.0](https://github.com/revanced/revanced-patches/compare/v2.130.0...v2.131.0) (2022-11-30)
+
+
+### Features
+
+* **twitch/block-embedded-ads:** `block-embedded-ads` patch support ([#1160](https://github.com/revanced/revanced-patches/issues/1160)) ([641d33f](https://github.com/revanced/revanced-patches/commit/641d33fc7e213031124491bb468fb382267769aa))
+
+# [2.130.0](https://github.com/revanced/revanced-patches/compare/v2.129.0...v2.130.0) (2022-11-29)
+
+
+### Features
+
+* **youtube/enable-wide-searchbar:** bump compatibility to v17.45.36 ([66ce54c](https://github.com/revanced/revanced-patches/commit/66ce54c9921e6fbf5bbe52d73b0182352181f2b8))
+
+# [2.129.0](https://github.com/revanced/revanced-patches/compare/v2.128.0...v2.129.0) (2022-11-28)
+
+
+### Features
+
+* **youtube/hide-create-button:** bump compatibility to v17.45.36 ([751f604](https://github.com/revanced/revanced-patches/commit/751f6047ba1589593d881ad523727d00dfb2609b))
+* **youtube/hide-shorts-button:** bump compatibility to v17.45.36 ([51bfa7a](https://github.com/revanced/revanced-patches/commit/51bfa7afd1720d958847a44ae636de722311a199))
+
+# [2.128.0](https://github.com/revanced/revanced-patches/compare/v2.127.0...v2.128.0) (2022-11-28)
+
+
+### Features
+
+* **twitch:** settings for patches ([#1142](https://github.com/revanced/revanced-patches/issues/1142)) ([ed56f94](https://github.com/revanced/revanced-patches/commit/ed56f94f12c3bee46ab370b2e3b7890d1181d53d))
+
+# [2.127.0](https://github.com/revanced/revanced-patches/compare/v2.126.1...v2.127.0) (2022-11-28)
+
+
+### Features
+
+* **twitch:** `settings` patch ([#1075](https://github.com/revanced/revanced-patches/issues/1075)) ([6e95b86](https://github.com/revanced/revanced-patches/commit/6e95b86e50cb09b60d82b456d4650218436ed154))
+
+## [2.126.1](https://github.com/revanced/revanced-patches/compare/v2.126.0...v2.126.1) (2022-11-28)
+
+
+### Bug Fixes
+
+* **youtube/custom-video-speed:** fuzzy scan on fingerprint  ([#1135](https://github.com/revanced/revanced-patches/issues/1135)) ([7b2cf56](https://github.com/revanced/revanced-patches/commit/7b2cf5698b85f7e2a901f6085c53d042660dc5c7))
+
+# [2.126.0](https://github.com/revanced/revanced-patches/compare/v2.125.0...v2.126.0) (2022-11-28)
+
+
+### Features
+
+* **backdrops:** `pro-unlock` patch ([#1121](https://github.com/revanced/revanced-patches/issues/1121)) ([76b5449](https://github.com/revanced/revanced-patches/commit/76b5449c61c97e8ad9f87fb7173c9819815744ba))
+
+# [2.125.0](https://github.com/revanced/revanced-patches/compare/v2.124.0...v2.125.0) (2022-11-26)
+
+
+### Features
+
+* **myexpenses:** `unlock-pro` patch ([#1120](https://github.com/revanced/revanced-patches/issues/1120)) ([e1a327a](https://github.com/revanced/revanced-patches/commit/e1a327a15d4289d9708546cc40f423597f22a66d))
+
+# [2.124.0](https://github.com/revanced/revanced-patches/compare/v2.123.0...v2.124.0) (2022-11-26)
+
+
+### Features
+
+* **citra:** `premium-unlock` patch ([#1115](https://github.com/revanced/revanced-patches/issues/1115)) ([86a3def](https://github.com/revanced/revanced-patches/commit/86a3def0f63a0529e44302472afc03cb0c8d566b))
+* **crunchyroll:** `enable-downloads` patch ([#1119](https://github.com/revanced/revanced-patches/issues/1119)) ([84d7bfd](https://github.com/revanced/revanced-patches/commit/84d7bfdbf8a6bfc25f52653a1b243f1291eb0da9))
+
+# [2.123.0](https://github.com/revanced/revanced-patches/compare/v2.122.0...v2.123.0) (2022-11-26)
+
+
+### Features
+
+* **windyapp:** `unlock-pro` patch ([#1118](https://github.com/revanced/revanced-patches/issues/1118)) ([d866634](https://github.com/revanced/revanced-patches/commit/d866634f83976df44b26848e0b70e9952d5d06ae))
+
+# [2.122.0](https://github.com/revanced/revanced-patches/compare/v2.121.0...v2.122.0) (2022-11-25)
+
+
+### Features
+
+* **tiktok:** `sim-spoof` patch ([#1088](https://github.com/revanced/revanced-patches/issues/1088)) ([53bb547](https://github.com/revanced/revanced-patches/commit/53bb547cc1003859f1d42db819a897e120b17fbe))
+
+# [2.121.0](https://github.com/revanced/revanced-patches/compare/v2.120.0...v2.121.0) (2022-11-23)
+
+
+### Features
+
+* **anytracker:** remove `unlock-premium` patch ([#1094](https://github.com/revanced/revanced-patches/issues/1094)) ([c3818be](https://github.com/revanced/revanced-patches/commit/c3818befc6e342ff04bc8e9fde84a667c123d7ab))
+
+# [2.120.0](https://github.com/revanced/revanced-patches/compare/v2.119.0...v2.120.0) (2022-11-23)
+
+
+### Features
+
+* **youtube:** `remove-player-button-background` patch ([#855](https://github.com/revanced/revanced-patches/issues/855)) ([9e14817](https://github.com/revanced/revanced-patches/commit/9e14817fd2ef29b9f3ec161d74ab972ba19066b0))
+
+# [2.119.0](https://github.com/revanced/revanced-patches/compare/v2.118.1...v2.119.0) (2022-11-23)
+
+
+### Features
+
+* **twitch:** ˋintegrationsˋ  dependency patch ([#1074](https://github.com/revanced/revanced-patches/issues/1074)) ([a84ca7e](https://github.com/revanced/revanced-patches/commit/a84ca7ec04389c3665358a7d239c615214fd327d))
+
+## [2.118.1](https://github.com/revanced/revanced-patches/compare/v2.118.0...v2.118.1) (2022-11-22)
+
+# [2.118.0](https://github.com/revanced/revanced-patches/compare/v2.117.1...v2.118.0) (2022-11-22)
+
+
+### Features
+
+* **youtube:** bump patches compatibility to v17.45.36 ([ab7dfd8](https://github.com/revanced/revanced-patches/commit/ab7dfd8ee1d902095811ed91b80aa0ed362ee9c5))
+
+## [2.117.1](https://github.com/revanced/revanced-patches/compare/v2.117.0...v2.117.1) (2022-11-22)
+
+
+### Bug Fixes
+
+* **youtube/general-ads:** hide reels shelf ([a436663](https://github.com/revanced/revanced-patches/commit/a436663e7755fc714c735df626d39bbd94f83dbb))
+
+# [2.117.0](https://github.com/revanced/revanced-patches/compare/v2.116.0...v2.117.0) (2022-11-21)
+
+
+### Features
+
+* **tiktok:** `tiktok-web-login` patch ([#593](https://github.com/revanced/revanced-patches/issues/593)) ([233e578](https://github.com/revanced/revanced-patches/commit/233e578b4d1cd5e783369e0c855e8246d158f8ed))
+
+# [2.116.0](https://github.com/revanced/revanced-patches/compare/v2.115.0...v2.116.0) (2022-11-21)
+
+
+### Features
+
+* **youtube/theme:** make amoled the default color for dark theme background" ([2b68ac7](https://github.com/revanced/revanced-patches/commit/2b68ac7796e54ed07c697909a84b3847f4ed7f01))
+
+# [2.115.0](https://github.com/revanced/revanced-patches/compare/v2.114.2...v2.115.0) (2022-11-21)
+
+
+### Features
+
+* **youtube/general-ads:** normalize switch names ([7636180](https://github.com/revanced/revanced-patches/commit/763618002ab6ccd9cd23889275c0e9b23642763e))
+* **youtube/theme:** exclude the patch by default ([57358ed](https://github.com/revanced/revanced-patches/commit/57358edc4cf3ae6b05cfb51359f66fc94c71cb5c))
+* **youtube/theme:** make dark the default color for dark theme background ([db44fa6](https://github.com/revanced/revanced-patches/commit/db44fa6f5adad19384970dad58784b2bf5fe1007))
+
+## [2.114.2](https://github.com/revanced/revanced-patches/compare/v2.114.1...v2.114.2) (2022-11-20)
+
+
+### Bug Fixes
+
+* **youtube/general-ads:** hide bytecode home ad view ([4976ad4](https://github.com/revanced/revanced-patches/commit/4976ad44b1867c93e976d91075b5bcead8d69c90))
+* **youtube/general-ads:** remove unused switch ([43cddcc](https://github.com/revanced/revanced-patches/commit/43cddcc85830524cd88d87ae1178f11451f158d8))
+
+## [2.114.1](https://github.com/revanced/revanced-patches/compare/v2.114.0...v2.114.1) (2022-11-20)
+
+
+### Bug Fixes
+
+* **tiktok/settings:** make compatible with newer versions ([#1057](https://github.com/revanced/revanced-patches/issues/1057)) ([e1d5d64](https://github.com/revanced/revanced-patches/commit/e1d5d6492ed660f43c87c796a59e766ea6b8ead0))
+
+# [2.114.0](https://github.com/revanced/revanced-patches/compare/v2.113.0...v2.114.0) (2022-11-20)
+
+
+### Features
+
+* **youtube:** `disable-zoom-haptics` patch ([#1079](https://github.com/revanced/revanced-patches/issues/1079)) ([a7cfba5](https://github.com/revanced/revanced-patches/commit/a7cfba54fbb3ee0ee5511a45d0b3c4620eb0c861))
+
+# [2.113.0](https://github.com/revanced/revanced-patches/compare/v2.112.0...v2.113.0) (2022-11-19)
+
+
+### Bug Fixes
+
+* **youtube/general-ads:** hide ads with buttons ([97fd3fd](https://github.com/revanced/revanced-patches/commit/97fd3fda79ff4bb2fadd0e6c4aa80b96d71f46da))
+
+
+### Features
+
+* **youtube/general-ads:** custom component filter ([b5e81d0](https://github.com/revanced/revanced-patches/commit/b5e81d0eaff3ab67a59ccd45eac6bf9414ed1380))
+* **youtube/general-ads:** hide gray separators ([59693f0](https://github.com/revanced/revanced-patches/commit/59693f007192c195258cea3a222d7fb94b6385c2))
+
+# [2.112.0](https://github.com/revanced/revanced-patches/compare/v2.111.3...v2.112.0) (2022-11-19)
+
+
+### Features
+
+* **anytracker:** `unlock-premium` patch ([#1076](https://github.com/revanced/revanced-patches/issues/1076)) ([52b3d90](https://github.com/revanced/revanced-patches/commit/52b3d909bbe59dafaea0cb9da1c27bdd0cda502f))
+
+## [2.111.3](https://github.com/revanced/revanced-patches/compare/v2.111.2...v2.111.3) (2022-11-18)
+
+
+### Bug Fixes
+
+* **youtube/litho-filter:** use correct type for switch case ([#1068](https://github.com/revanced/revanced-patches/issues/1068)) ([ab03511](https://github.com/revanced/revanced-patches/commit/ab03511e23d07c7c40b58eae5791fb2a798289de))
+
+## [2.111.2](https://github.com/revanced/revanced-patches/compare/v2.111.1...v2.111.2) (2022-11-18)
+
+
+### Bug Fixes
+
+* **youtube/general-ads:** import correct compatibility annotation ([#1065](https://github.com/revanced/revanced-patches/issues/1065)) ([db2085c](https://github.com/revanced/revanced-patches/commit/db2085c217311a8b7d45a01c03c6162bc60a9298))
+
+## [2.111.1](https://github.com/revanced/revanced-patches/compare/v2.111.0...v2.111.1) (2022-11-18)
+
+# [2.111.0](https://github.com/revanced/revanced-patches/compare/v2.110.0...v2.111.0) (2022-11-15)
+
+
+### Features
+
+* **iconpackstudio:** `unlock-pro` patch ([#1047](https://github.com/revanced/revanced-patches/issues/1047)) ([fcbca9c](https://github.com/revanced/revanced-patches/commit/fcbca9cf0ff3940c48df53a9e5e4d06d65f9a1b1))
+
+# [2.110.0](https://github.com/revanced/revanced-patches/compare/v2.109.0...v2.110.0) (2022-11-15)
+
+
+### Features
+
+* **youtube/debugging:** include by default & add option to debug on Android ([9d6d5b2](https://github.com/revanced/revanced-patches/commit/9d6d5b29227980aacb4c1331161afb3fa265bbe4))
+* **youtube/debugging:** use more suitable preference title ([d182351](https://github.com/revanced/revanced-patches/commit/d182351e789bcbfb7982774406449e8d973765b2))
+* **youtube/general-ads:** hide chapter teaser under videos ([9cf415a](https://github.com/revanced/revanced-patches/commit/9cf415a894ab5458134ef1cd5a4c5bf7579e592c))
+* **youtube/general-ads:** hide self sponsored cards ([b627d75](https://github.com/revanced/revanced-patches/commit/b627d751b49c228e52f7f9fb5d2bcacb9d243a64))
+* **youtube/general-ads:** hide shorts in search ([c01ba5c](https://github.com/revanced/revanced-patches/commit/c01ba5cbcc694f8c9ee83a4e9eb081cf5b45753c))
+
+# [2.109.0](https://github.com/revanced/revanced-patches/compare/v2.108.0...v2.109.0) (2022-11-13)
+
+
+### Features
+
+* **twitch:** `block-audio-ads` patch ([#1041](https://github.com/revanced/revanced-patches/issues/1041)) ([3419bae](https://github.com/revanced/revanced-patches/commit/3419baed489ce231f84b3e2d600cf123cdfa7ff7))
+* **twitch:** `block-video-ads` patch  ([#1040](https://github.com/revanced/revanced-patches/issues/1040)) ([b47bf24](https://github.com/revanced/revanced-patches/commit/b47bf24d1b52cfa1883a942894a6216ae81b8325))
+
+# [2.108.0](https://github.com/revanced/revanced-patches/compare/v2.107.0...v2.108.0) (2022-11-13)
+
+
+### Features
+
+* **twitch:** `debug-mode` patch ([#1031](https://github.com/revanced/revanced-patches/issues/1031)) ([c514860](https://github.com/revanced/revanced-patches/commit/c514860bc4a46295b11f09df9ffc1c556b798eb3))
+
+# [2.107.0](https://github.com/revanced/revanced-patches/compare/v2.106.1...v2.107.0) (2022-11-13)
+
+
+### Features
+
+* **ticktick:** `unlock-themes` patch ([#1028](https://github.com/revanced/revanced-patches/issues/1028)) ([7f1fedc](https://github.com/revanced/revanced-patches/commit/7f1fedcddd4330a5f884b813a20f2f8e84e2c9da))
+* **twitch/show-deleted-messages:** `show-deleted-messages` patch ([#1030](https://github.com/revanced/revanced-patches/issues/1030)) ([7e6b453](https://github.com/revanced/revanced-patches/commit/7e6b4534013a03ddc7eb11a1f911fa0564372118))
+
+## [2.106.1](https://github.com/revanced/revanced-patches/compare/v2.106.0...v2.106.1) (2022-11-11)
+
+
+### Bug Fixes
+
+* **youtube/custom-branding:** use high resolution icons ([#1018](https://github.com/revanced/revanced-patches/issues/1018)) ([1c9d1ac](https://github.com/revanced/revanced-patches/commit/1c9d1acf2b7aff4cd52d17009ff01246f74d2214))
+
+# [2.106.0](https://github.com/revanced/revanced-patches/compare/v2.105.0...v2.106.0) (2022-11-09)
+
+
+### Features
+
+* **youtube:** `open-links-directly` patch ([#999](https://github.com/revanced/revanced-patches/issues/999)) ([bf85f62](https://github.com/revanced/revanced-patches/commit/bf85f62f30242f91bdaf53b44ae6a9a2b3b6e1b4))
+
+# [2.105.0](https://github.com/revanced/revanced-patches/compare/v2.104.2...v2.105.0) (2022-11-09)
+
+
+### Features
+
+* **nyx:** `unlock-pro` patch ([#1004](https://github.com/revanced/revanced-patches/issues/1004)) ([9dd8239](https://github.com/revanced/revanced-patches/commit/9dd82391f3f97247224e09e0143b2272a3d47053))
+
+## [2.104.2](https://github.com/revanced/revanced-patches/compare/v2.104.1...v2.104.2) (2022-11-08)
+
+
+### Bug Fixes
+
+* **youtube/hide-endscreen-cards:** restore functionality ([#993](https://github.com/revanced/revanced-patches/issues/993)) ([eb1bae2](https://github.com/revanced/revanced-patches/commit/eb1bae2c55e65ad29030dce6746a18662dd0fe25))
+
+## [2.104.1](https://github.com/revanced/revanced-patches/compare/v2.104.0...v2.104.1) (2022-11-07)
+
+
+### Bug Fixes
+
+* **youtube/general-ads:** incorrect description for info panels ([77b029e](https://github.com/revanced/revanced-patches/commit/77b029e82e481a13516b1c8a888c42817507cdea))
+* **youtube/hide-info-cards:** remove initial popup of info-cards ([#992](https://github.com/revanced/revanced-patches/issues/992)) ([19f3f03](https://github.com/revanced/revanced-patches/commit/19f3f038585c313a969adf3d4095a60ab4c83ede))
+
+# [2.104.0](https://github.com/revanced/revanced-patches/compare/v2.103.0...v2.104.0) (2022-11-06)
+
+
+### Features
+
+* **hexeditor:** `disable-ads` patch ([#973](https://github.com/revanced/revanced-patches/issues/973)) ([a48e5fd](https://github.com/revanced/revanced-patches/commit/a48e5fd50dcf9ee061ffd5c5ed0b997067f40652))
+
+# [2.103.0](https://github.com/revanced/revanced-patches/compare/v2.102.1...v2.103.0) (2022-11-05)
+
+
+### Bug Fixes
+
+* apply multiple changes from integrations, refactor package structure, class names and implementations ([e756fac](https://github.com/revanced/revanced-patches/commit/e756face362e4abf2c7b17afa536feed9b0cd631))
+* **youtube/video-information:** use correct compatibility annotation ([b42e048](https://github.com/revanced/revanced-patches/commit/b42e04884bb9a60c3df30b668bfba55b1cf8eaa4))
+
+
+### Features
+
+* **debugging:** simplify patch name and description ([61762f7](https://github.com/revanced/revanced-patches/commit/61762f76c457f348ef599e146f3853e941d4c45c))
+
+## [2.102.1](https://github.com/revanced/revanced-patches/compare/v2.102.0...v2.102.1) (2022-11-04)
+
+
+### Bug Fixes
+
+* use original app name ([#977](https://github.com/revanced/revanced-patches/issues/977)) ([ffc3c08](https://github.com/revanced/revanced-patches/commit/ffc3c08d96734893121397d506a97bd50b06bc1d))
+
+# [2.102.0](https://github.com/revanced/revanced-patches/compare/v2.101.0...v2.102.0) (2022-11-03)
+
+
+### Features
+
+* **youtube-music:** bump patches compatibility to v5.31.50 ([#962](https://github.com/revanced/revanced-patches/issues/962)) ([476fcc8](https://github.com/revanced/revanced-patches/commit/476fcc87ca0d33cfbf251e4307755f02ed8f8baa))
+
+# [2.101.0](https://github.com/revanced/revanced-patches/compare/v2.100.3...v2.101.0) (2022-11-01)
+
+
+### Features
+
+* **youtube:** bump patches compatibility to v17.43.36 ([#924](https://github.com/revanced/revanced-patches/issues/924)) ([3867514](https://github.com/revanced/revanced-patches/commit/38675144dcb616474a047bcf8f7e1bf1f668ea46))
+
+## [2.100.3](https://github.com/revanced/revanced-patches/compare/v2.100.2...v2.100.3) (2022-11-01)
+
+
+### Bug Fixes
+
+* **youtube/video-ads:** add switch to temporarily fix buffering issues ([7aa3bce](https://github.com/revanced/revanced-patches/commit/7aa3bce6ccd669a66de10ef6ffe2151f27b40365))
+
+## [2.100.2](https://github.com/revanced/revanced-patches/compare/v2.100.1...v2.100.2) (2022-10-31)
+
+
+### Bug Fixes
+
+* **youtube/theme-patch:** respect app specific theme ([#946](https://github.com/revanced/revanced-patches/issues/946)) ([fe8d6c7](https://github.com/revanced/revanced-patches/commit/fe8d6c7b2c10be5cca0717b6a03cfa1bef10e2c0))
+
+## [2.100.1](https://github.com/revanced/revanced-patches/compare/v2.100.0...v2.100.1) (2022-10-31)
+
 # [2.100.0](https://github.com/revanced/revanced-patches/compare/v2.99.0...v2.100.0) (2022-10-30)
 
 
